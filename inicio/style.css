@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
     body {
       margin: 0;
@@ -7,12 +8,29 @@
     }
 
     .navbar {
+=======
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      position: relative;
+      top: -30px;
+>>>>>>> 550d0825c80b745fc3ee7ce34c6c41068b110a36
       background-color: orangered;
       display: flex;
       justify-content: space-between;
       align-items: center;
+<<<<<<< HEAD
       padding: 10px 20px 200px;
       color: white;
+=======
+      padding: 30px 20px 170px;
+      color: white;
+      border-radius: 25px;
+
+>>>>>>> 550d0825c80b745fc3ee7ce34c6c41068b110a36
     }
 
     .logo {
@@ -24,6 +42,10 @@
       list-style: none;
       display: flex;
       gap: 20px;
+<<<<<<< HEAD
+=======
+    padding-
+>>>>>>> 550d0825c80b745fc3ee7ce34c6c41068b110a36
     }
 
     .nav-links a {
@@ -31,13 +53,17 @@
       text-decoration: none;
       font-weight: 500;
       transition: color 0.3s;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 550d0825c80b745fc3ee7ce34c6c41068b110a36
     }
 
     .nav-links a:hover {
       color: coral;
     }
 
+<<<<<<< HEAD
   
   main {
     background-color: orangered;
@@ -47,3 +73,6 @@
     justify-content: space-around;
     align-items: center;
   }
+=======
+   
+>>>>>>> 550d0825c80b745fc3ee7ce34c6c41068b110a36
