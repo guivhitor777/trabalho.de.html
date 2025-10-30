@@ -1,78 +1,97 @@
-<<<<<<< HEAD
+/* CONFIGURAÇÃO GERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: black;
-      color: white;
-    }
-
-    .navbar {
-=======
 body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
 
-    .navbar {
-      position: relative;
-      top: -30px;
->>>>>>> 550d0825c80b745fc3ee7ce34c6c41068b110a36
-      background-color: orangered;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-<<<<<<< HEAD
-      padding: 10px 20px 200px;
-      color: white;
-=======
-      padding: 30px 20px 170px;
-      color: white;
-      border-radius: 25px;
+.fundo {
+  background-image: linear-gradient(to right, #D17638, #CE5629, #741F24);
+  height: 80vh;
+  border-radius: 0px 0px 40px 40px;
+}
 
->>>>>>> 550d0825c80b745fc3ee7ce34c6c41068b110a36
-    }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+  height: 100px;
+}
 
-    .logo {
-      font-size: 1.5em;
-      font-weight: bold;
-    }
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
 
-    .nav-links {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-<<<<<<< HEAD
-=======
-    padding-
->>>>>>> 550d0825c80b745fc3ee7ce34c6c41068b110a36
-    }
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
 
-    .nav-links a {
-      color: white;
-      text-decoration: none;
-      font-weight: 500;
-      transition: color 0.3s;
-<<<<<<< HEAD
-    
-=======
->>>>>>> 550d0825c80b745fc3ee7ce34c6c41068b110a36
-    }
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
 
-    .nav-links a:hover {
-      color: coral;
-    }
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
 
-<<<<<<< HEAD
-  
-  main {
-    background-color: orangered;
-    display: flex;
-    padding: 30px;
-    color: white;
-    justify-content: space-around;
-    align-items: center;
-  }
-=======
-   
->>>>>>> 550d0825c80b745fc3ee7ce34c6c41068b110a36
+}
+
+.nav-links a:hover {
+  color: coral;
+}
+
+/* PRIMEIRA SEÇÃO */
+
+#home {
+  display: flex;
+  align-items: center;
+  height: calc(100% - 100px);
+  padding: 0px 100px;
+  width: 100%;
+}
+
+.item_home {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+  height: 100%;
+  /* border: 1px solid white; */
+}
+
+.item_home > p {
+  line-height: 1.3em;
+}
+
+.prim {
+  width: 35%;
+  padding: 40px 0px;
+}
+
+.terc {
+  width: 30%;
+}
+
+.img_home {
+  width: 40%;
+  height: 100%;
+  display: flex;
+}
+
+.img_home > img {
+  width: auto;
+}
