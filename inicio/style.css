@@ -94,4 +94,27 @@ header {
 
 .img_home > img {
   width: auto;
+
+}
+
+section  {
+  display: flex;
+  padding: 0px 100px;
+  justify-content: space-between;
+}
+
+.img2 {
+  float: right;
+}
+
+.div {
+  display: flex;
+  flex-flow: column nowrap
+
+
+}
+
+.div2 {
+  display: flex;
+  flex-flow: row wrap;
 }
