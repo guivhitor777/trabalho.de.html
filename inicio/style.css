@@ -97,10 +97,11 @@ header {
 
 }
 
-section  {
+#cima  {
   display: flex;
   padding: 0px 100px;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .img2 {
@@ -120,6 +121,20 @@ section  {
 }
 
 #img img {
-  margin: 20px;
-  border-radius: 0;
+   float: right;
+  margin-left: 10px;
+  border-radius: 15px;
+}
+
+#img #img2 {
+  width: 100px 40px;
+  
+}
+
+#img #img3 {
+  width: 150px;
+}
+
+#img #img4 {
+  width: 180px;
 }
