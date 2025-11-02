@@ -117,19 +117,20 @@ header {
 #img {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
 }
 
 #img img {
    float: right;
   margin-left: 10px;
   border-radius: 15px;
-
 }
 
  #img2 {
-  width: 100px 40px;
+  width: 120px;
   height: auto;
-}
+ }
 
  #img3 {
   width: 150px;
@@ -139,9 +140,35 @@ header {
  #img4 {
   width: 180px;
   height: auto;
+ 
 }
 
  #img5 {
-  width: 120px;
+  width: 160px;
   height: auto;
+  
+}
+
+#Serviços {
+  display: flex;
+  padding: 100px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.produto {
+  background-color: chocolate;
+  background-color: chocolate;
+  border-radius: 10px;
+  border :1px solid cadetblue;
+  padding: 15px;
+  position: relative;
+  display: flex;
+   display: inline-block;
+  max-width: max-content;
+  margin-top: 50px;
+}
+
+.imgproduto {
+  
 }
