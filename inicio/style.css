@@ -109,8 +109,7 @@ header {
 
 .div {
   display: flex;
-  flex-flow: column nowrap
-
+  flex-flow: column nowrap;
 
 }
 
@@ -122,17 +121,17 @@ header {
 }
 
 #img img {
-   float: right;
+  float: right;
   margin-left: 10px;
   border-radius: 15px;
 }
 
- #img2 {
+#img2 {
   width: 120px;
   height: auto;
  }
 
- #img3 {
+#img3 {
   width: 150px;
   height: auto;
 }
@@ -149,73 +148,6 @@ header {
   
 }
 
-#services {
-  display: flex;
-  flex-flow: column nowrap;
-  padding: 20px 100px;
-}
+/* SEGUNDA SEÇÃO */
 
-.services {
-  display: flex;
-  flex-flow: nowrap;
-  margin-top: 50px;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  width: 100px;
-}
 
-.item_servi {
-  border-radius: 20px;
-  padding: 25px;
-  display: flex;
-  position: relative;
-  gap: 20px;
-  width: 100%;
-}
-
-.item_servi > img {
-  position: absolute;
-  width: 260px;
-  top: -30px;
-  right: -50px;
-}
-
-.infos {
-  display: flex;
-  flex-flow: column nowrap;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: center;
-  width: 60%;
-  line-height: 1.4em;
-}
-
-.infos > button {
-  background-image: linear-gradient(to right, #D17638, #CE5629, 741F24);
-  padding: 5px 14px;
-  border: none;
-  border-radius: 10px;
-}
-
-.infos > button > a {
-  text-decoration: none;
-  color: white;
-}
-
-.grande {
-  min-width: 53%;
-}
-
-.grande > img {
-  bottom: 0px;
-  top: -80px;
-  right: 0px;
-}
-
-.corte > img {
-  width: 400px;
-  bottom: -140px;
-  top: -55px;
-  right: -50px;
-}
