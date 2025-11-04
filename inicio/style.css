@@ -240,19 +240,18 @@ footer {
   display: flex;
   width: 100%;
   padding: 100px 100px 50px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 
 
 .sum {
   width: 50%; 
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.cont {
+#footer {
   display: flex;
+  gap: 500px;
 }
 
 .direitos {
