@@ -96,59 +96,6 @@ header {
 
 }
 
-/* SEGUNDA SEÇÃO - GUI */
-/* 
-#cima  {
-  display: flex;
-  padding: 0px 100px;
-  justify-content: space-between;
-  margin-top: 50px;
-}
-
-.img2 {
-  float: right;
-}
-
-.div {
-  display: flex;
-  flex-flow: column nowrap;
-
-}
-
-#img {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  align-content: center;
-}
-
-#img img {
-  float: right;
-  margin-left: 10px;
-  border-radius: 15px;
-}
-
-#img2 {
-  width: 120px;
-  height: auto;
- }
-
-#img3 {
-  width: 150px;
-  height: auto;
-}
-
- #img4 {
-  width: 180px;
-  height: auto;
- 
-}
-
-#img5 {
-  width: 160px;
-  height: auto;
-  
-} */
 
 /* SEGUNDA SEÇÃO */
 
@@ -294,4 +241,20 @@ footer {
   width: 100%;
   padding: 100px 100px 50px;
   justify-content: space-between;
+}
+
+
+
+.sum {
+  width: 50%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cont {
+  display: flex;
+}
+
+.direitos {
+  text-align: center;
 }
