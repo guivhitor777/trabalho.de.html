@@ -12,8 +12,8 @@ body {
 
 .fundo {
   background-image: linear-gradient(to right, #D17638, #CE5629, #741F24);
-  height: 80vh;
-  border-radius: 0px 0px 40px 40px;
+  height: 15vh;
+  border-bottom-right-radius: 40px;
 }
 
 header {
@@ -54,4 +54,41 @@ header {
 
 .nav-links a:hover {
   color: coral;
+}
+
+/* PRIMEIRA SEÇÃO */
+
+#Fraseorig {
+  padding: 50px 100px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.frase {
+  padding-top: 100px;
+  margin-left: 140px;
+  gap: 20px;
+  font-size: 28px;
+  margin-bottom: 0.67em;
+}
+
+
+
+
+.infos_sobre {
+  display: flex;
+  flex-flow: column;
+  width: 40%;
+  gap: 15px;
+  line-height: 1.4em;
+  justify-content: center;
+}
+
+.produto1 {
+  width: 550px;
+  margin-left: 700px;
+  margin-top: -150px;
 }
