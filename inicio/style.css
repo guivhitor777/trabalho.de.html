@@ -5,16 +5,17 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
   background-color: black;
   color: white;
-   font-family: "Merriweather", serif;
+  /* font-family: "Merriweather", serif; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .fundo {
   background-image: linear-gradient(to right, #D17638, #CE5629, #741F24);
   height: 80vh;
   border-radius: 0px 0px 40px 40px;
+  width: 100%;
 }
 
 header {
@@ -196,7 +197,7 @@ header {
   gap: 10px;
   align-items: flex-start;
   justify-content: center;
-  width: 60%;
+  width: 50%;
   line-height: 1.4em;
 }
 
@@ -230,7 +231,7 @@ header {
 }
 
 .crono > img {
-  width: 420px;
+  width: 410px;
   top: -120px;
   right: -100px;
 }
@@ -240,16 +241,37 @@ header {
 
 footer {
   display: flex;
-  width: 100%;
-  padding: 100px 100px 50px;
-  justify-content: space-around;
-  font-family: "Merriweather", serif;
-  padding: 50px 100px;
   flex-direction: column;
+  width: 100%;
+  gap: 60px;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px 40px 100px;
 }
 
 
+#footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
 
+#footer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  text-align: justify;
+  line-height: 1.4em;
+}
+
+.logo_footer {width: 35%;}
+
+
+
+/* 
 .sum {
   width: 50%;
   text-align: center; 
@@ -264,7 +286,4 @@ justify-content: space-between
 
 .direitos {
 text-align: center;
-}
-::-webkit-scrollbar {
-justify-content: space-between;
-}
+} */
