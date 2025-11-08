@@ -8,6 +8,7 @@ body {
   font-family: Arial, sans-serif;
   background-color: black;
   color: white;
+   font-family: "Merriweather", serif;
 }
 
 .fundo {
@@ -35,7 +36,6 @@ header {
 .logo {
   font-size: 1.5em;
   font-weight: bold;
-  font-family: "Merriweather", serif;
 }
 
 .nav-links {
@@ -243,6 +243,9 @@ footer {
   width: 100%;
   padding: 100px 100px 50px;
   justify-content: space-around;
+  font-family: "Merriweather", serif;
+  padding: 50px 100px;
+  flex-direction: column;
 }
 
 
@@ -252,13 +255,15 @@ footer {
 }
 
 #footer {
-  display: flex;
-  gap: 500px;
+display: flex;
+align-items: center;
+justify-content: space-between
 }
 
+
 .direitos {
-  text-align: center;
+text-align: center;
 }
 ::-webkit-scrollbar {
-  display: none;
+justify-content: space-between;
 }
