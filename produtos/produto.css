@@ -5,10 +5,12 @@
 }
 
 body {
-  background-color: black;
+  background-color: dimgrey;
   color: white;
-  font-family: "Merriweather", serif;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 100px 100px 100px 100px;
 }
+
 
 header {
   position: sticky;
@@ -73,36 +75,29 @@ header {
   width: 100%;
 }
 
-
-/* 
-.frase  h1 {
-  padding-top: 100px;
-  margin-left: 140px;
-  gap: 20px;
-  font-size: 50px;
-  margin-top: 100px;
+/* SEGUNDA SEÇÃO */
+#main {
+  background-color: black;
 }
 
-.frase p {
-  padding-top: 50px;
-  margin-left: 140px;
-  gap: 20px;
+.img_produto > img {
+  width: 100%;
 }
 
-
-
-
-.infos_sobre {
+.produtos {
   display: flex;
-  flex-flow: column;
-  width: 40%;
-  gap: 15px;
-  line-height: 1.4em;
-  justify-content: center;
+  text-align: right;
+  flex-direction: column;
+  margin-right: 70px;
+  white-space: nowrap;
+  padding: 50px 100px;
+  gap: 20px;
 }
 
-.produto1 {
-  width: 550px;
-  margin-left: 700px;
-  margin-top: -400px;
-} */
+.infos {
+  display: flex;
+  border-radius: 20px;
+  background-color: black;
+  border: solid 1px white;
+  flex-direction: column;
+}
