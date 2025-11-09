@@ -100,4 +100,9 @@ header {
   background-color: black;
   border: solid 1px white;
   flex-direction: column;
+  width: 270px;
+  margin-left: 700px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px; 
 }
