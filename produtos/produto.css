@@ -94,14 +94,20 @@ header {
   gap: 20px;
 }
 
-.infor {
+.infos {
   display: flex;
   Padding: 0px 100px 50px 0px;
+  border: 1px solid white;
 }
 
 .produtogrande {
-  width: 45%;
-  height: 100%;
-  background-image: linear-gradient(to right, #D17638, #CE5629, #741F24);;
-  border-radius: 20px;
+  height: 500px;
+  width: 500px;
+  background-image: linear-gradient(to right, #D17638, #CE5629, #741F24);
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+}
+.produtogrande img{
+  height: 500px;
+  width: 500px;
 }
