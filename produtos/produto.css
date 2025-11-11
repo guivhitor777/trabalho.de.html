@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: dimgrey;
+  background-color: rgb(0, 0, 0);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 100px 100px 100px 100px;
@@ -96,8 +96,39 @@ header {
 
 .infos {
   display: flex;
-  Padding: 0px 100px 50px 0px;
+  padding: 20px;
   border: 1px solid white;
+  border-radius: 20px;
+  width: 350px;
+  gap: 10px;
+}
+#infos{
+  width: calc(100vw - 20px);
+  gap: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 200px 80px 0px;
+  border: 1px solid white;
+}
+/* .infos p {
+  width: 50px;
+  margin-left: 20px;
+  display: flex;
+  gap: 20px;
+} */
+
+.conteudo {
+  display: flex;
+  gap: 10px;
+
+  flex-flow: row wrap;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
 }
 
 .produtogrande {
