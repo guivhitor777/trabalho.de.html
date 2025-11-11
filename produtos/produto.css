@@ -94,15 +94,14 @@ header {
   gap: 20px;
 }
 
-.infos {
+.infor {
   display: flex;
+  Padding: 0px 100px 50px 0px;
+}
+
+.produtogrande {
+  width: 45%;
+  height: 100%;
+  background-image: linear-gradient(to right, #D17638, #CE5629, #741F24);;
   border-radius: 20px;
-  background-color: black;
-  border: solid 1px white;
-  flex-direction: column;
-  width: 270px;
-  margin-left: 700px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px; 
 }
