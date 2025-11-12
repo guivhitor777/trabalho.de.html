@@ -62,6 +62,8 @@ header {
   flex-direction: column;
   gap: 20px;
   line-height: 1.4em;
+  width: 40%;
+  font-size: 2em;
 }
 
 .img_produ {
@@ -119,16 +121,17 @@ header {
 
 .conteudo {
   display: flex;
-  gap: 10px;
-
+  gap: 100px;
   flex-flow: row wrap;
 }
 
+ @media screen and (min-width: 763px) and (max-width: 930px){}
 .principal {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 50%;
+  width: 40%;
+  font-size: 2em;
 }
 
 .produtogrande {
@@ -138,7 +141,22 @@ header {
   border-top-right-radius: 70px;
   border-bottom-left-radius: 70px;
 }
-.produtogrande img{
+
+.produtogrande img {
   height: 500px;
   width: 500px;
+}
+
+.venda {
+  display: flex;
+  gap: 20px;
+  width: 40%;
+  font-size: 2em;
+  margin-left: 60px;
+}
+
+.venda img {
+  width: 75px;
+  border-radius: 20px;
+  border: solid linear-gradient(to right, #D17638, #CE5629, #741F24) 1px;
 }
