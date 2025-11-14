@@ -146,7 +146,13 @@ header {
   display: flex;
   flex-direction: column;
 }
- @media screen and (min-width: 763px) and (max-width: 930px){}
+ @media screen and (min-width: 763px) and (max-width: 930px){
+
+
+
+
+
+ }
 .principal {
   display: flex;
   flex-direction: column;
@@ -167,30 +173,31 @@ header {
   width: 500px;
 }
 
+.vendas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .venda {
   display: flex;
   font-size: 30px;
 }
 
 .descricao {
-  flex-direction: column;
-}
-
-.vult img {
-  width: 300px;
-  border-radius: 20px;
-  border: 2px solid transparent;
-  background: linear-gradient(#141414, #141414) padding-box, linear-gradient(45deg, #D17638, #CE5629, #741F24) border-box;
-  padding: 20px;
-  margin-top: 30px;
+  display: flex;
+  flex-direction: justify;
 }
 
 .tres img {
   width: 300px;
+  display: flex;
+
   border-radius: 20px;
   border: 2px solid transparent;
   background: linear-gradient(#141414, #141414) padding-box, linear-gradient(45deg, #D17638, #CE5629, #741F24) border-box;
   padding: 20px;
   margin-top: 30px;
 }
+
+
 
