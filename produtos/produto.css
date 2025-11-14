@@ -169,13 +169,28 @@ header {
 
 .venda {
   display: flex;
-  gap: 20px;
-  width: 40%;
-  margin-left: 60px;
+  font-size: 30px;
 }
 
-.venda img {
-  
-  border-radius: 20px;
-  border: solid linear-gradient(to right, #D17638, #CE5629, #741F24) 1px;
+.descricao {
+  flex-direction: column;
 }
+
+.vult img {
+  width: 300px;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  background: linear-gradient(#141414, #141414) padding-box, linear-gradient(45deg, #D17638, #CE5629, #741F24) border-box;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.tres img {
+  width: 300px;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  background: linear-gradient(#141414, #141414) padding-box, linear-gradient(45deg, #D17638, #CE5629, #741F24) border-box;
+  padding: 20px;
+  margin-top: 30px;
+}
+
