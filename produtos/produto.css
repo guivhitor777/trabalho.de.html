@@ -146,13 +146,7 @@ header {
   display: flex;
   flex-direction: column;
 }
- @media screen and (min-width: 763px) and (max-width: 930px){
-
-
-
-
-
- }
+ @media screen and (min-width: 763px) and (max-width: 930px){}
 .principal {
   display: flex;
   flex-direction: column;
@@ -173,31 +167,53 @@ header {
   width: 500px;
 }
 
-.vendas {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .venda {
   display: flex;
-  font-size: 30px;
+  font-size: 20px;
+  gap: 40px;
+  margin-left: 50px;
 }
 
 .descricao {
-  display: flex;
-  flex-direction: justify;
+  flex-direction: column;
 }
 
-.tres img {
+.item img {
   width: 300px;
-  display: flex;
-
+  height: 300px;
   border-radius: 20px;
   border: 2px solid transparent;
   background: linear-gradient(#141414, #141414) padding-box, linear-gradient(45deg, #D17638, #CE5629, #741F24) border-box;
-  padding: 20px;
   margin-top: 30px;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 60px;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px 40px 100px;
+}
 
+
+#footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#footer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  text-align: justify;
+  line-height: 1.4em;
+}
+
+.logo_footer {width: 35%;}
 
