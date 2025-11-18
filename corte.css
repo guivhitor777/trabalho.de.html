@@ -66,4 +66,11 @@ header {
   width: 40%;
   font-size: 20px;
   align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left : 100%;
 }
+
+.frase p {
+  width: 200%;
+} 
