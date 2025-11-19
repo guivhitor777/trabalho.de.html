@@ -89,7 +89,6 @@ header {
 .infos {
   display: flex;
   padding: 20px;
-  border: 1px solid white;
   border-radius: 20px;
   width: 350px;
   gap: 10px;
@@ -177,6 +176,22 @@ header {
   padding: 20px 100px;
   gap: 30px;
 }
+
+.infos > button {
+  background-image: linear-gradient(to right, #D17638, #CE5629, #741F24);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.infos > button > a {
+  text-decoration: none;
+  color: white;
+}
+.infos > button:hover {
+  background-image: linear-gradient(to right, #CE5629, #D17638, #741F24);
+}
+
 
 footer {
   display: flex;
