@@ -92,6 +92,7 @@ header {
   border-radius: 20px;
   width: 350px;
   gap: 10px;
+  border: 1px solid white;
 }
 
 #infos1{
@@ -177,18 +178,18 @@ header {
   gap: 30px;
 }
 
-.infos > button {
+.compra > button {
   background-image: linear-gradient(to right, #D17638, #CE5629, #741F24);
   border: none;
   border-radius: 10px;
   padding: 10px 20px;
 }
 
-.infos > button > a {
+.compra > button > a {
   text-decoration: none;
   color: white;
 }
-.infos > button:hover {
+.compra > button:hover {
   background-image: linear-gradient(to right, #CE5629, #D17638, #741F24);
 }
 
