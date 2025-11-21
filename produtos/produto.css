@@ -197,6 +197,8 @@ header {
   border-radius: 20px;
   border: 2px solid transparent;
   background: linear-gradient(#141414, #141414) padding-box, linear-gradient(45deg, #D17638, #CE5629, #741F24) border-box;
+  height: 500px;
+  width: 400px;
 }
 
 .item > div > img {

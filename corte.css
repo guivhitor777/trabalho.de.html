@@ -52,25 +52,11 @@ header {
   padding: 80px 100px;
   display: flex;
   width: 100%;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
-
-.inicio_prod {width: 40%;}
 
 .frase {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  line-height: 1.4em;
-  width: 40%;
-  font-size: 20px;
-  align-items: center;
   text-align: center;
-  justify-content: center;
-  margin-left : 100%;
 }
 
-.frase p {
-  width: 200%;
-} 
