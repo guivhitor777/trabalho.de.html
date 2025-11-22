@@ -54,6 +54,7 @@ header {
   justify-content: center;
   flex-direction: column;
   gap: 70px;
+  margin-top: 50px;
 }
 
 .frase {
@@ -97,6 +98,20 @@ header {
 
 /* SEGUNDA SEÇÃO */
 
+h1 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+#segunda {
+  padding: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#segunda > h1 {margin-left: 90px;}
 
 .item {
   border-radius: 20px;
@@ -107,25 +122,78 @@ header {
   align-items: center;
   justify-content: center;
   gap: 20px;
-  width: 30%;
-  padding: 20px;
-  width: 30%;
+  width: 300px;
+  padding: 30px;
+  line-height: 1.4em;
+  text-align: justify;
 }
 
 .hair {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
   flex-wrap: wrap;
 }
 
 .item img {
-  width: 50%;
+  width: 100%;
+  border-radius: 20px;
 }
 
 .infor {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
+
+.conteudo {display: none;}
+
+.aberto {display: block;}
+
+.botao {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.icone {
+  transition: transform 0.3s;
+  color: white;
+}
+
+.rotated {transform: rotate(180deg);}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 60px;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px 40px 100px;
+}
+
+
+#footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#footer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  text-align: justify;
+  line-height: 1.4em;
+}
+
+.logo_footer {width: 35%;}
