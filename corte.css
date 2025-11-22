@@ -49,14 +49,41 @@ header {
 
 /* PRIMEIRA SEÇÃO */
 #inicio {
-  padding: 80px 100px;
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .frase {
   text-align: center;
+  margin-top: 50px;
 }
 
+.cortes {
+  background-image: linear-gradient(to right, #D17638, #CE5629, #741F24);;
+  display: flex;
+  padding: 20px;
+  border-radius: 30px;
+  width: 60%;
+  margin-top: 30px;
+}
+
+/* SEGUNDA SEÇÃO */
+
+.galeria h1 {
+  font-size: 3em;
+}
+
+.galeria {
+  margin-left: 70px;
+  margin-top: 70px;
+}
+
+.fts  {
+  border-radius: 20px;
+  border: 2px solid transparent;
+  background: linear-gradient(#141414, #141414) padding-box, linear-gradient(45deg, #D17638, #CE5629, #741F24) border-box;
+  height: 100px;
+}
