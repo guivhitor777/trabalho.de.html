@@ -195,15 +195,15 @@ header {
 }
 
 .infos2_img {
-  border-radius: 20px;
+  border-radius: 40px;
   border: 2px solid transparent;
   background: linear-gradient(#141414, #141414) padding-box, linear-gradient(45deg, #D17638, #CE5629, #741F24) border-box;
-  height: 400px;
+  height: 600px;
   width: 100%;
   display: flex;
   align-items: center;
   top: 0;
-  padding: 30px;
+  padding: 40px;
 }
 
 .infos2_img > img {
@@ -215,7 +215,7 @@ header {
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   padding: 20px 100px;
   gap: 30px;
