@@ -192,6 +192,7 @@ header {
 .item {
   width: 30%;
   height: 560px;
+  margin-bottom: 150px;
 }
 
 .infos2_img {
