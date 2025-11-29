@@ -249,38 +249,3 @@ header {
 .compra > button:hover {
   background-image: linear-gradient(to right, #CE5629, #D17638, #741F24);
 }
-
-
-
-/* FOOTER */
-
-footer {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  gap: 60px;
-  margin-top: 20px;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 100px 40px 100px;
-}
-
-
-#footer {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-around;
-}
-
-#footer > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-  text-align: justify;
-  line-height: 1.4em;
-}
-
-.logo_footer {width: 35%;}
-
