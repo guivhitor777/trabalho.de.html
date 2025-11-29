@@ -48,10 +48,21 @@ header {
 .nav-links>li>a:hover {
     color: coral;
 }
-
+ 
 .logo {
-    font-size: 1.5em;
-    font-weight: bold;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+
+.logo > img {
+  width: 40px;
+}
+
+.p_logo {
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 /* PRIMEIRA SEÇÃO */
@@ -184,10 +195,15 @@ header {
 .conteudo_tres {
     display: flex;
     flex-direction: column;
+    align-items: self-end;
     text-align: end;
     gap: 20px;
     font-size: 1.3em;
     line-height: 1.5em;
+}
+
+.conteudo_tres > img {
+    width: 70%;
 }
 
 .conteudo_tres_right {

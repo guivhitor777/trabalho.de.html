@@ -24,6 +24,7 @@ header {
   padding: 20px 100px;
   height: 100px;
   font-family: Helvetica, Arial, sans-serif;
+  z-index: 99;
 }
 
 .nav-links {
@@ -31,25 +32,24 @@ header {
   justify-content: space-between;
   align-items: center;
   color: white;
+  list-style: none;
+  gap: 20px;
 }
  
 .logo {
   display: flex;
+  align-items: center;
+  width: 30%;
+  height: 100%;
 }
 
 .logo > img {
-  
+  width: 40px;
 }
 
-.logo > p{
+.p_logo {
   font-size: 1.5em;
   font-weight: bold;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
 }
 
 .nav-links a {
@@ -57,7 +57,6 @@ header {
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
-
 }
 
 .nav-links a:hover {
