@@ -49,38 +49,49 @@ header {
 /* PRIMEIRA SEÇÃO */
 #inicio {
   display: flex;
-  width: 100%;
-  align-items: left;
+  padding: 70px 100px;
   justify-content: center;
-  flex-direction: column;
-  gap: 70px;
-  margin-top: 50px;
-  margin-left: 50px;
+  gap: 50px;
 }
 
 .frase {
   text-align: left;
-  margin-top: 50px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 70%;
-  margin-top: 50px;
+  width: 40%;
 }
 
-.frase h2 {
-    margin-top: 50px;
+.frase > img {
+  width: 100%;
+  border-radius: 20px;
 }
 
+#section_crono > h1 {
+  margin: 30px auto 30px 100px;
+}
 
 .crono {
   display: flex;
-  padding: 100px 200px;
+  padding: 20px 50px 0px 50px;
   width: 100%;
   background-image: linear-gradient(to right, #D17638, #CE5629, #741F24);
-  margin-top: 200px;
   justify-content: space-between;
-  position: relative;
+  align-items: center;
+}
+
+.img_inicio {
+  width: 50%;
+}
+
+.img_inicio > img {
+  width: 100%;
+  border-radius: 20px;
+
+}
+
+.segunda {
+  align-items: flex-end;
 }
 
 .infor {
@@ -88,21 +99,84 @@ header {
   flex-direction: column;
   height: 100%;
   gap: 30px;
-  width: 50%;
+  width: 40%;
 }
 
-.cont {
-  padding: 30px;
+.conteudo {
+  padding: 20px;
   border: 1px solid white;
   border-radius: 20px;
   line-height: 1.4em;
-  width: 80%;
+  width: 90%;
+  font-size: 0.9em;
+}
+
+.iza {
+  width: 30%;
 }
 
 .iza > img {
-  position: absolute;
-  justify-content: center;
-  left: 40%;
-  bottom: -3px;
-  width: 600px;
+  width: 350px;
 }
+
+.especial {
+  width: 100%;
+}
+
+/* TERCEIRA SEÇÃO */
+
+.porosidade {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cont_porosidade{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+  width: 87%;
+}
+
+.img_porosidade {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 87%;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 60px;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px 40px 100px;
+}
+
+
+#footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#footer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  text-align: justify;
+  line-height: 1.4em;
+}
+
+.logo_footer {width: 35%;}

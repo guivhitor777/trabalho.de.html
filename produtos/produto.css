@@ -55,7 +55,7 @@ header {
 }
 
 .inicio_prod {
-  width: 50%;
+  width: 60%;
   padding: 0px 40px;
 }
 
@@ -79,7 +79,7 @@ header {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  width: 50%;
+  width: 35%;
 }
 
 .img_produ > img {
