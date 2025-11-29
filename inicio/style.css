@@ -256,7 +256,6 @@ footer {
   padding: 50px 100px 40px 100px;
 }
 
-
 #footer {
   display: flex;
   width: 100%;
@@ -274,22 +273,3 @@ footer {
 }
 
 .logo_footer {width: 35%;}
-
-
-
-/* 
-.sum {
-  width: 50%;
-  text-align: center; 
-}
-
-#footer {
-display: flex;
-align-items: center;
-justify-content: space-between
-}
-
-
-.direitos {
-text-align: center;
-} */
