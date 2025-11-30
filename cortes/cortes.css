@@ -40,6 +40,10 @@ header {
   color: coral;
 }
 
+.ativo {
+  border-bottom: 1px solid orange;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -217,6 +221,10 @@ footer {
   gap: 10px;
   text-align: justify;
   line-height: 1.4em;
+}
+
+#footer a {
+  color:white;
 }
 
 .logo_footer {width: 35%;}

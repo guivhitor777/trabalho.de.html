@@ -56,6 +56,11 @@ header {
   height: 100%;
 }
 
+.ativo {
+  border-bottom: 1px solid orange;
+}
+
+
 .logo > img {
   width: 40px;
 }
@@ -312,6 +317,10 @@ footer {
     gap: 10px;
     text-align: justify;
     line-height: 1.4em;
+}
+
+#footer a {
+  color:white;
 }
 
 .logo_footer {
