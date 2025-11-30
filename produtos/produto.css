@@ -143,7 +143,6 @@ header {
   text-align: center;
 }
 
-.conteudo1 > h1 {text-transform: uppercase;}
 
 .conteudo2{
   display: flex;
@@ -193,7 +192,6 @@ header {
 
 #infos2 > h1 {
   margin-bottom: 30px;
-  text-transform: uppercase;
 }
 
 .container {
