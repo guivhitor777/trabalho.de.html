@@ -82,11 +82,18 @@ header {
   flex-flow: column nowrap;
   gap: 20px;
   height: 100%;
-  /* border: 1px solid white; */
 }
 
 .item_home > p {
   line-height: 1.3em;
+}
+
+.item_home_terc {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+  height: 100%;
+  margin-top: 200px;
 }
 
 .prim {
